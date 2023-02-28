@@ -3,7 +3,7 @@ const sinon = require('sinon');
 const productsModels = require('../../../src/models/products.model');
 
 const connection = require('../../../src/models/db/connection');
-const  { products }  = require('../models/mocks/products.model.mock');
+const  { products }  = require('./mocks/products.model.mock');
 
 describe('Testes de unidade do model de produtos', function () {
   it('Recuperando a lista de produtos', async function () {

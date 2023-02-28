@@ -3,7 +3,7 @@ const sinon = require('sinon');
 const salesModels = require('../../../src/models/sales.models');
 
 const connection = require('../../../src/models/db/connection');
-const { allSales } = require('../models/mocks/sales.model.mock');
+const { allSales } = require('./mocks/sales.model.mock');
 
 describe('Testes de unidade do model de sales', function () {
   it('Recuperando a lista de vendas', async function () {

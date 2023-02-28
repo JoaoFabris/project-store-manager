@@ -12,7 +12,7 @@ const {
   invalidQuantityMock,
   invalidIdProductMock,
   saleWithTimeMock,
-} = require('../../unit/models/mocks/sales.services.mock');
+} = require('../models/mocks/sales.services.mock');
 
   describe('Testes de cadastrar vendas', function () {
     it('Lista todas as vendas', async function () {
